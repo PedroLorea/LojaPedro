@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Dev\\LojaPedro\\LojaPedro.Application\\LojaPedro.Application.csproj",
         "projectName": "LojaPedro.Application",
         "projectPath": "C:\\Dev\\LojaPedro\\LojaPedro.Application\\LojaPedro.Application.csproj",
-        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\LojaPedro\\LojaPedro.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,11 +68,11 @@
         "projectUniqueName": "C:\\Dev\\LojaPedro\\LojaPedro.Domain\\LojaPedro.Domain.csproj",
         "projectName": "LojaPedro.Domain",
         "projectPath": "C:\\Dev\\LojaPedro\\LojaPedro.Domain\\LojaPedro.Domain.csproj",
-        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\LojaPedro\\LojaPedro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

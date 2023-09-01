@@ -1,0 +1,12 @@
+C:\Dev\LojaPedro\LojaPedro.Domain\bin\Debug\net5.0\LojaPedro.Domain.deps.json
+C:\Dev\LojaPedro\LojaPedro.Domain\bin\Debug\net5.0\LojaPedro.Domain.dll
+C:\Dev\LojaPedro\LojaPedro.Domain\bin\Debug\net5.0\ref\LojaPedro.Domain.dll
+C:\Dev\LojaPedro\LojaPedro.Domain\bin\Debug\net5.0\LojaPedro.Domain.pdb
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.csproj.AssemblyReference.cache
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.AssemblyInfoInputs.cache
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.AssemblyInfo.cs
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.dll
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\ref\LojaPedro.Domain.dll
+C:\Dev\LojaPedro\LojaPedro.Domain\obj\Debug\net5.0\LojaPedro.Domain.pdb

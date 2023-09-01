@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Dev\\LojaPedro\\LojaPedro.Domain\\LojaPedro.Domain.csproj",
         "projectName": "LojaPedro.Domain",
         "projectPath": "C:\\Dev\\LojaPedro\\LojaPedro.Domain\\LojaPedro.Domain.csproj",
-        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\LojaPedro\\LojaPedro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,11 +64,11 @@
         "projectUniqueName": "C:\\Dev\\LojaPedro\\LojaPedro.Infra.Data\\LojaPedro.Infra.Data.csproj",
         "projectName": "LojaPedro.Infra.Data",
         "projectPath": "C:\\Dev\\LojaPedro\\LojaPedro.Infra.Data\\LojaPedro.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\LojaPedro\\LojaPedro.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,6 +97,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

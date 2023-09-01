@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LojaPedro.Application/1.0.0": {
+        "dependencies": {
+          "LojaPedro.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LojaPedro.Application.dll": {}
+        }
+      },
+      "LojaPedro.Domain/1.0.0": {
+        "runtime": {
+          "LojaPedro.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LojaPedro.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LojaPedro.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

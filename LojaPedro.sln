@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaPedro.Domain", "LojaPedro.Domain\LojaPedro.Domain.csproj", "{F83AEF9B-266C-44F2-AC03-8F60DA91AF64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaPedro.Domain", "LojaPedro.Domain\LojaPedro.Domain.csproj", "{F83AEF9B-266C-44F2-AC03-8F60DA91AF64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaPedro.Application", "LojaPedro.Application\LojaPedro.Application.csproj", "{6863F695-C8CE-4B1D-83D0-83A1958B4297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaPedro.Application", "LojaPedro.Application\LojaPedro.Application.csproj", "{6863F695-C8CE-4B1D-83D0-83A1958B4297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaPedro.Infra.Data", "LojaPedro.Infra.Data\LojaPedro.Infra.Data.csproj", "{F7A3B871-91E7-40FA-9834-F0757652C985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaPedro.Infra.Data", "LojaPedro.Infra.Data\LojaPedro.Infra.Data.csproj", "{F7A3B871-91E7-40FA-9834-F0757652C985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaPedro.Infra.IoC", "LojaPedro.Infra.IoC\LojaPedro.Infra.IoC.csproj", "{A68ECD62-8A15-489E-8BBF-76992DE261A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaPedro.Infra.IoC", "LojaPedro.Infra.IoC\LojaPedro.Infra.IoC.csproj", "{A68ECD62-8A15-489E-8BBF-76992DE261A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaPedro.WebUI", "LojaPedro.WebUI\LojaPedro.WebUI.csproj", "{DA46B0CD-103D-46E5-A51F-DE0264F8FB5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaPedro.WebUI", "LojaPedro.WebUI\LojaPedro.WebUI.csproj", "{DA46B0CD-103D-46E5-A51F-DE0264F8FB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaPedro.Domain.Tests", "LojaPedro.Domain.Tests\LojaPedro.Domain.Tests.csproj", "{885DC8BF-90FB-4289-A9C3-7CC34E2E25C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DA46B0CD-103D-46E5-A51F-DE0264F8FB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA46B0CD-103D-46E5-A51F-DE0264F8FB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA46B0CD-103D-46E5-A51F-DE0264F8FB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885DC8BF-90FB-4289-A9C3-7CC34E2E25C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885DC8BF-90FB-4289-A9C3-7CC34E2E25C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885DC8BF-90FB-4289-A9C3-7CC34E2E25C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885DC8BF-90FB-4289-A9C3-7CC34E2E25C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
