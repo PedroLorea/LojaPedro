@@ -1,4 +1,7 @@
-﻿using LojaPedro.Domain.Interfaces;
+﻿using LojaPedro.Application.Interfaces;
+using LojaPedro.Application.Mappings;
+using LojaPedro.Application.Services;
+using LojaPedro.Domain.Interfaces;
 using LojaPedro.Infra.Data.Context;
 using LojaPedro.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +26,9 @@ namespace LojaPedro.Infra.IoC
 
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<ICategoriaService, CategoriaService>();
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }

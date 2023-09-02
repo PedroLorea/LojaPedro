@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YopCvSnGn61Efz523t5KCxdPLf6KtiMrmHyJLO3sBs57L6NnAPqe4Y20K4QVEKgOuiEe/LfWvfrOa8SpDHd8MQ==",
+  "dgSpecHash": "tp3Ymf+vhCUDSSUFtykjDIUnqH0iGgjyjZoZ2AZv/THaRXKl2XWebgshCKqXEFOVUABY1uZ3mx+C/4XCiSFQOg==",
   "success": true,
   "projectFilePath": "C:\\Dev\\LojaPedro\\LojaPedro.Application\\LojaPedro.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
