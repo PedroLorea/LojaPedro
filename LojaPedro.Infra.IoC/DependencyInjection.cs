@@ -4,6 +4,7 @@ using LojaPedro.Application.Services;
 using LojaPedro.Domain.Interfaces;
 using LojaPedro.Infra.Data.Context;
 using LojaPedro.Infra.Data.Repositories;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +30,9 @@ namespace LojaPedro.Infra.IoC
             services.AddScoped<IProdutoService, ProdutoService>();
             services.AddScoped<ICategoriaService, CategoriaService>();
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+
+            var myhandlers = AppDomain.CurrentDomain.Load("LojaPedro.Application");
+            services.AddMediatR(myhandlers);
 
             return services;
         }

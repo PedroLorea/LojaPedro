@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-  </ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+
+    <PackageReference Include="MediatR" Version="12.1.1" />  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LojaPedro.Application\LojaPedro.Application.csproj" />

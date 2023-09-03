@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "tp3Ymf+vhCUDSSUFtykjDIUnqH0iGgjyjZoZ2AZv/THaRXKl2XWebgshCKqXEFOVUABY1uZ3mx+C/4XCiSFQOg==",
+  "dgSpecHash": "8BJZGvq7Jzn23gDe1KnxbO2ZcpON8B0CmPYsnM4+wvmsuQNdApG/N0v1FFEjdEBvw5Uzw8G2xk8Za2yKz4SPjA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\LojaPedro\\LojaPedro.Application\\LojaPedro.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\pedro\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
