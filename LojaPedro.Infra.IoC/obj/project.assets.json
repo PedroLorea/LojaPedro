@@ -59,19 +59,6 @@
           "lib/netstandard2.0/MediatR.Contracts.dll": {}
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "MediatR": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "compile": {
@@ -1715,19 +1702,6 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
-      ]
-    },
-    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
-      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
-      "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "gradient_128x128.png",
-        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -6030,8 +6004,7 @@
       "LojaPedro.Application >= 1.0.0",
       "LojaPedro.Domain >= 1.0.0",
       "LojaPedro.Infra.Data >= 1.0.0",
-      "MediatR >= 12.1.1",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0"
+      "MediatR >= 12.1.1"
     ]
   },
   "packageFolders": {
@@ -6090,10 +6063,6 @@
           "MediatR": {
             "target": "Package",
             "version": "[12.1.1, )"
-          },
-          "MediatR.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[9.0.0, )"
           }
         },
         "imports": [

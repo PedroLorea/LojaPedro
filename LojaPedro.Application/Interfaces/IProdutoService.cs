@@ -11,10 +11,10 @@ namespace LojaPedro.Application.Interfaces
     {
         
         Task<IEnumerable<ProdutoDTO>> GetProdutos();
-        //Task<ProdutoDTO> GetById(int? id);
-        //Task<ProdutoDTO> GetProdutoCategoria(int? id);
-        //Task Add(ProdutoDTO produtoDTO);
-        //Task Update(ProdutoDTO produtoDTO);
-        //Task Remove(int? id);
+        Task<ProdutoDTO> GetById(int? id);
+        Task<ProdutoDTO> GetProdutoCategoria(int? id);
+        Task Add(ProdutoDTO produtoDTO);
+        Task Update(ProdutoDTO produtoDTO);
+        Task Remove(int? id);
     }
 }

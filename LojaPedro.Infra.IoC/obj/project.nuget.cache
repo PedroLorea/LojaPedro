@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mj5O68wmIN1Gqy6SNPzdDI1ifDyytDY8VK0gibSyDQEUnFyv0Mm3/y6QOJrM7ZsFL0KFpdHVW6GJRGbSf3LgLQ==",
+  "dgSpecHash": "2EmelH4wrjfS34NxNptl7rnCw2hRRS//Rcj7p8l0cdjBthEIW6o8dR5p08phw6c8Zva2xoXiAnwpB7lFK+0ZBQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\LojaPedro\\LojaPedro.Infra.IoC\\LojaPedro.Infra.IoC.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,6 @@
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

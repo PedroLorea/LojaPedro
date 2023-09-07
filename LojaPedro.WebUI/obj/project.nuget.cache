@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jNlLesC4Tqq7/4RM1onkz5enJWUjZbspexc7/GkDvBLezNFPwAOMvqGwRpEFqjdhJhsvoAkLvRgPR1T+CpXfEA==",
+  "dgSpecHash": "mnl6rNxMN712/8YezN6O+cIT3LpwelFWaLsRx3cHUd3GE9m7aYcJMRtPdafHYzidL7zDnX2/SxD5nEq7A93qAQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\LojaPedro\\LojaPedro.WebUI\\LojaPedro.WebUI.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,6 @@
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.17.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.17\\microsoft.aspnetcore.razor.language.5.0.17.nupkg.sha512",

@@ -63,7 +63,7 @@ namespace LojaPedro.Application.Services
 
         public async Task Update(ProdutoDTO produtoDTO)
         {
-            var produtoUpdateCommand = _mapper.Map<ProdutoCreateCommand>(produtoDTO);
+            var produtoUpdateCommand = _mapper.Map<ProdutoUpdateCommand>(produtoDTO);
             await _mediator.Send(produtoUpdateCommand);
         }
 

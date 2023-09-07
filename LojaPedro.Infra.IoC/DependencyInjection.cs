@@ -4,15 +4,11 @@ using LojaPedro.Application.Services;
 using LojaPedro.Domain.Interfaces;
 using LojaPedro.Infra.Data.Context;
 using LojaPedro.Infra.Data.Repositories;
-using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace LojaPedro.Infra.IoC
 {
@@ -32,7 +28,9 @@ namespace LojaPedro.Infra.IoC
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             var myhandlers = AppDomain.CurrentDomain.Load("LojaPedro.Application");
-            services.AddMediatR(myhandlers);
+            //services.AddMediatR(myhandlers);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(myhandlers));
+
 
             return services;
         }

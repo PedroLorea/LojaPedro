@@ -334,7 +334,6 @@ C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\scopedcss\bundle\LojaPedro.Web
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\LojaPedro.WebUI.TagHelpers.input.cache
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\LojaPedro.WebUI.TagHelpers.output.cache
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\LojaPedro.WebUI.RazorCoreGenerate.cache
-C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -395,3 +394,16 @@ C:\Dev\LojaPedro\LojaPedro.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Options.d
 C:\Dev\LojaPedro\LojaPedro.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Dev\LojaPedro\LojaPedro.WebUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Produtos\Index.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Dev\LojaPedro\LojaPedro.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Dev\LojaPedro\LojaPedro.WebUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Home\Sobre.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Categorias\Create.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Categorias\Edit.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Categorias\Delete.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Categorias\Details.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Dev\LojaPedro\LojaPedro.WebUI\obj\Debug\net5.0\Razor\Views\Produtos\Details.cshtml.g.cs

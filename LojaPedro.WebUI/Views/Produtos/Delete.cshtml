@@ -1,0 +1,36 @@
+﻿@model LojaPedro.Application.DTOs.ProdutoDTO
+
+<h3>Deletar Produto</h3>
+
+<h4>Tem certeza que deseja deletar o produto?</h4>
+
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <input type="hidden" asp-for="Id" />
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>
