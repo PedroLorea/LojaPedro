@@ -44,17 +44,6 @@ namespace LojaPedro.Application.Services
             return _mapper.Map<ProdutoDTO>(result);
         }
 
-        public async Task<ProdutoDTO> GetProdutoCategoria(int? id)
-        {
-            var produtoByIdQuery = new GetProdutoByIdQuery(id.Value);
-
-            if (produtoByIdQuery == null) throw new Exception($"Entidade não foi carregada");
-
-            var result = await _mediator.Send(produtoByIdQuery);
-
-            return _mapper.Map<ProdutoDTO>(result);
-        }
-
         public async Task Add(ProdutoDTO produtoDTO)
         {
             var produtoCreateCommand = _mapper.Map<ProdutoCreateCommand>(produtoDTO);

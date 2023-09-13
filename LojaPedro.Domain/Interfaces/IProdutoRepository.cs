@@ -10,7 +10,6 @@ namespace LojaPedro.Domain.Interfaces
     {
         Task<IEnumerable<Produto>> GetProdutosAsync();
         Task<Produto> GetIdAsync(int? id);
-        Task<Produto> GetProdutoCategoriaAsync(int? id);
         Task<Produto> CreateAsync(Produto produto);
         Task<Produto> UpdateAsync(Produto produto);
         Task<Produto> RemoveAsync(Produto produto);

@@ -27,14 +27,10 @@ namespace LojaPedro.Infra.Data.Repositories
 
         public async Task<Produto> GetIdAsync(int? id)
         {
-            return await _produtoContext.Produtos.FindAsync(id);
-        }
-
-        public async Task<Produto> GetProdutoCategoriaAsync(int? id)
-        {
             return await _produtoContext.Produtos.Include(c => c.Categoria)
                 .SingleOrDefaultAsync(p => p.Id == id);
         }
+
 
         public async Task<IEnumerable<Produto>> GetProdutosAsync()
         {
