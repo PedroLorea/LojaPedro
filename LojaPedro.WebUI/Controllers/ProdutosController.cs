@@ -98,6 +98,7 @@ namespace LojaPedro.WebUI.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpGet]
         public async Task<IActionResult> Details (int? id)
         {
             if (id == null) return NotFound();

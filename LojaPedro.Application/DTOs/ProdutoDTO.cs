@@ -17,6 +17,7 @@ namespace LojaPedro.Application.DTOs
         [Required(ErrorMessage = "Descrição é obrigatório")]
         [MinLength(5)]
         [MaxLength(200)]
+        [DisplayName("Descrição")]
         public string Descricao { get; set; }
 
         [Required(ErrorMessage = "Preço é obrigatório")]
@@ -33,6 +34,7 @@ namespace LojaPedro.Application.DTOs
         [MaxLength(250)]
         public string Imagem { get; set; }
 
+        [DisplayName("Categoria")]
         public int CategoriaId { get; set; }
 
         public Categoria Categoria { get; set; }

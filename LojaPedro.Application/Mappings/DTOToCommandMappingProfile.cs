@@ -14,7 +14,7 @@ namespace LojaPedro.Application.Mappings
         public DTOToCommandMappingProfile()
         {
             CreateMap<ProdutoDTO, ProdutoCreateCommand>();
-            CreateMap<ProdutoDTO, ProdutoCreateCommand>();
+            CreateMap<ProdutoDTO, ProdutoUpdateCommand>();
         }
         
     }

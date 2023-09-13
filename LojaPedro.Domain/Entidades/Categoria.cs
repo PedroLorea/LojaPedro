@@ -7,7 +7,7 @@ namespace LojaPedro.Domain
 {
     public sealed class Categoria : Entidade
     {
-        public string Nome { get; private set; }
+        public string Nome { get; set; }
         public ICollection<Produto> Produtos { get; set; }
 
         public Categoria(string nome)
